@@ -1,6 +1,6 @@
 <?php
 
-namespace Waynestate\Nova;
+namespace iHazzam\Nova;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

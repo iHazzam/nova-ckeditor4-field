@@ -1,5 +1,5 @@
 {
-    "name": "waynestate/nova-ckeditor4-field",
+    "name": "iHazzam/nova-ckeditor4-field",
     "version": "0.1.1",
     "description": "This nova package allows you to use CKEditor 4 for text areas.",
     "keywords": [
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Waynestate\\Nova\\": "src/"
+            "iHazzam\\Nova\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Waynestate\\Nova\\CKEditorFieldServiceProvider"
+                "iHazzam\\Nova\\CKEditorFieldServiceProvider"
             ]
         }
     },

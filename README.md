@@ -9,7 +9,7 @@ This nova package allows you to use [CKEditor 4](https://ckeditor.com/ckeditor-4
 You can install the package into a Laravel application that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require waynestate/nova-ckeditor4-field
+composer require iHazzam/nova-ckeditor4-field
 ```
 
 By default the CKEditor 4 instance used is the latest (4.10.1) Standard All version. If you wish to use a different CKEditor 4 you can do so by editing the configuration.
@@ -21,7 +21,7 @@ By default the CKEditor 4 instance used is the latest (4.10.1) Standard All vers
 
 namespace App\Nova;
 
-use Waynestate\Nova\CKEditor;
+use iHazzam\Nova\CKEditor;
 
 class Article extends Resource
 {
@@ -45,7 +45,7 @@ class Article extends Resource
 To change any of config values, publish a config file:
 
 ```bash
-php artisan vendor:publish --tag=config --provider=Waynestate\\Nova\\CKEditorFieldServiceProvider
+php artisan vendor:publish --tag=config --provider=iHazzam\\Nova\\CKEditorFieldServiceProvider
 ```
 
 ## Customization
